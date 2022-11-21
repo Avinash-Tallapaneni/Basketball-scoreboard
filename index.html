@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasketBall Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="scoreboard">
+
+            <div class="home">
+                <span> HOME</span>
+                <p id="scores_home">0</p>
+            <div class="buttons">
+                <button onclick= "one_point(event)" class="one-pointer-btn" name= "home"> +1 </button>
+                <button onclick= "two_point(event)"class="two-pointer-btn"  name= "home"> +2 </button>
+                <button onclick= "five_point(event)"class="five-pointer-btn"  name= "home"> +5 </button>
+
+        <div class="guest">
+            <span> GUEST</span>
+            <p id="scores-guest">0</p>
+            <div class="buttons">
+                <button onclick= "one_point(event)"class="one-pointer-btn" name= "guest"> +1 </button>
+                <button onclick= "two_point(event)"class="two-pointer-btn"  name= "guest"> +2 </button>
+                <button onclick= "five_point(event)"class="five-pointer-btn"  name= "guest"> +5 </button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

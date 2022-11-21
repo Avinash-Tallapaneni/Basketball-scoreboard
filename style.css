@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    background: #1B244A;
+    /* border: 2px solid red; */
+}
+
+.container {
+    display: grid;
+    text-align: center;
+    place-content: center;
+    height:100%;
+    margin:  30px;
+    /* border: 2px solid red; */
+}
+
+.scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    /* border: 2px solid red; */
+
+}
+
+span {
+    color: purple;
+    font-size: 2rem;
+    padding: 0 30px ;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    
+}
+#scores {
+    /* border: 2px solid red; */
+    font-size: 100px;    
+}
+
+.buttons {
+    /* border: 2px solid red; */
+    font-size: 20px;
+    color: #4a1b1b;
+    
+}
+
+.one-pointer-btn, .two-pointer-btn,  .five-pointer-btn{
+    font-size: 20px;
+    /* margin-bottom:20px ; */
+    background-color: gray;
+    /* border: 2px solid red; */
+    
+}
